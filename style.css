@@ -1,16 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
-font-family: Arial, Helvetica, sans-serif;
-margin: 10px;
-padding: 30px;
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+
 }
-div{
-    border: 1px solid black;
+.navbar{
+    background-color: #DC143C;
+    position: fixed;
+    font-family: Poppins,Ubuntu;
+    width: 100%;
+    padding: 15px 0px;
 }
-#heading{
-    background-color:aqua ;
-    text-align: center;
+.navbar .max-width{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.max-width{
+    margin: auto;
+    padding: 0px 80px;
+    max-width: 1300px;
 }
-#paragraph{
-    background-color: #edb887;
-    text-align: justify;
+.navbar .logo a{
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    margin: 30px 0px;
+}
+.logo{
+
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+}
+.navbar .menu li a {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 18px 0px;
+    padding-left: 18px;
+}
+.home{
+    display: flex;
+    background: url(Images/banner.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
 }
