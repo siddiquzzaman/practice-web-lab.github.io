@@ -48,4 +48,24 @@ text-decoration: none;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    color: #fff;
+    font-family: Ubuntu,sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0px;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
 }
